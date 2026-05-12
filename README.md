@@ -7,7 +7,7 @@
 
 ---
 
-## 👥 Project Team: Infraglyph Unit 01
+## Project Team: Infraglyph Unit 01
 *   **Urvi Kava**
 *   **Harsh Patel**
 *   **Prisha Khalasi**
@@ -15,7 +15,7 @@
 
 ---
 
-## 🚩 Problem Statement
+## Problem Statement
 In modern digital forensics, investigators are overwhelmed by **massive telemetry gaps**. Analyzing millions of log entries—ranging from login attempts to file transfers—to find a single thread of malicious activity is like searching for a needle in a haystack. Manual analysis is slow, prone to error, and cannot scale with enterprise data.
 
 **UFDR** solves this by providing an autonomous reasoning engine that:
@@ -26,7 +26,7 @@ In modern digital forensics, investigators are overwhelmed by **massive telemetr
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 The UFDR system follows a sophisticated **"Retrieve -> Rerank -> Reason -> Report"** pipeline.
 
 ```mermaid
@@ -51,7 +51,7 @@ graph TD
 
 ---
 
-## 🚀 Setup & Installation
+## Setup & Installation
 
 ### Prerequisites
 *   **Python 3.10+**
@@ -91,7 +91,7 @@ npm install
 
 ---
 
-## 🏗️ Data Setup & Indexing
+## Data Setup & Indexing
 Before running the command center, you must process the raw forensic data and build the search indexes.
 
 ### 1. Process Raw Forensic Data
@@ -120,7 +120,7 @@ python Indexing/pipeline.py --phase all
 
 ---
 
-## 🛠️ Running the Project
+## Running the Project
 
 ### 1. Launch the Backend Server
 From the project root:
@@ -144,7 +144,7 @@ python full_pipeline.py "Investigate suspicious data exfiltration for user FEB03
 
 ---
 
-## 📄 Output & Evidence
+## Output & Evidence
 *   **Investigative Dossiers**: Full Markdown reports synthesized from logs.
 *   **Attack Topology**: Interactive Mermaid graphs visualizing entity relationships.
 *   **Risk Scoring**: Dynamic threat levels (0-10) assigned by the Reasoning Engine.
