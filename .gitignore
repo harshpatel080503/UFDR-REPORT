@@ -1,0 +1,32 @@
+# Data
+Data/
+
+# Indexing Outputs and DBs
+Indexing/output/
+Indexing/page_index.db
+Indexing/page_index.db-shm
+Indexing/page_index.db-wal
+
+# Web App Dependencies
+ufdr-web-app/node_modules/
+ufdr-web-app/dist/
+
+# Environment Variables
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.env/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store

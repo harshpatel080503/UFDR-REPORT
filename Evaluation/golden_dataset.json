@@ -1,0 +1,1402 @@
+[
+  {
+    "query_id": "Q001",
+    "query": "Investigate potential Data Exfiltration activity for TEM0093 on 2010-01-04",
+    "expected_log_ids": [
+      "email_006525",
+      "email_006588",
+      "email_006605"
+    ],
+    "expected_threat_category": "Data Exfiltration",
+    "expected_risk_score": 9,
+    "ideal_summary": "The forensic analysis of user TEM0093 on 2010-01-04 reveals patterns consistent with Data Exfiltration. The investigation identified multiple high-risk events, including email_006525, email_006588, email_006605, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Data Exfiltration with a risk score of 9.",
+    "scenario": 1,
+    "insider_user": "TEM0093"
+  },
+  {
+    "query_id": "Q002",
+    "query": "Investigate potential Insider Theft activity for CHG0146 on 2010-01-04",
+    "expected_log_ids": [
+      "email_001932",
+      "email_001936",
+      "email_001951"
+    ],
+    "expected_threat_category": "Insider Theft",
+    "expected_risk_score": 7,
+    "ideal_summary": "The forensic analysis of user CHG0146 on 2010-01-04 reveals patterns consistent with Insider Theft. The investigation identified multiple high-risk events, including email_001932, email_001936, email_001951, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Insider Theft with a risk score of 7.",
+    "scenario": 2,
+    "insider_user": "CHG0146"
+  },
+  {
+    "query_id": "Q003",
+    "query": "Investigate potential Sabotage activity for HDL0748 on 2010-01-06",
+    "expected_log_ids": [
+      "email_017949",
+      "email_020843",
+      "email_020870"
+    ],
+    "expected_threat_category": "Sabotage",
+    "expected_risk_score": 10,
+    "ideal_summary": "The forensic analysis of user HDL0748 on 2010-01-06 reveals patterns consistent with Sabotage. The investigation identified multiple high-risk events, including email_017949, email_020843, email_020870, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Sabotage with a risk score of 10.",
+    "scenario": 3,
+    "insider_user": "HDL0748"
+  },
+  {
+    "query_id": "Q004",
+    "query": "Investigate potential None activity for AAF0535 on 2010-01-05",
+    "expected_log_ids": [
+      "email_011840",
+      "email_011974",
+      "email_013848"
+    ],
+    "expected_threat_category": "None",
+    "expected_risk_score": 0,
+    "ideal_summary": "The forensic analysis of user AAF0535 on 2010-01-05 reveals patterns consistent with None. The investigation identified multiple high-risk events, including email_011840, email_011974, email_013848, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as None with a risk score of 0.",
+    "scenario": 0,
+    "insider_user": "AAF0535"
+  },
+  {
+    "query_id": "Q005",
+    "query": "Investigate potential Data Exfiltration activity for TEM0093 on 2010-01-04",
+    "expected_log_ids": [
+      "email_006525",
+      "email_006588",
+      "email_006605"
+    ],
+    "expected_threat_category": "Data Exfiltration",
+    "expected_risk_score": 9,
+    "ideal_summary": "The forensic analysis of user TEM0093 on 2010-01-04 reveals patterns consistent with Data Exfiltration. The investigation identified multiple high-risk events, including email_006525, email_006588, email_006605, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Data Exfiltration with a risk score of 9.",
+    "scenario": 1,
+    "insider_user": "TEM0093"
+  },
+  {
+    "query_id": "Q006",
+    "query": "Investigate potential Insider Theft activity for CHG0146 on 2010-01-04",
+    "expected_log_ids": [
+      "email_001932",
+      "email_001936",
+      "email_001951"
+    ],
+    "expected_threat_category": "Insider Theft",
+    "expected_risk_score": 7,
+    "ideal_summary": "The forensic analysis of user CHG0146 on 2010-01-04 reveals patterns consistent with Insider Theft. The investigation identified multiple high-risk events, including email_001932, email_001936, email_001951, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Insider Theft with a risk score of 7.",
+    "scenario": 2,
+    "insider_user": "CHG0146"
+  },
+  {
+    "query_id": "Q007",
+    "query": "Investigate potential Sabotage activity for HDL0748 on 2010-01-06",
+    "expected_log_ids": [
+      "email_017949",
+      "email_020843",
+      "email_020870"
+    ],
+    "expected_threat_category": "Sabotage",
+    "expected_risk_score": 10,
+    "ideal_summary": "The forensic analysis of user HDL0748 on 2010-01-06 reveals patterns consistent with Sabotage. The investigation identified multiple high-risk events, including email_017949, email_020843, email_020870, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Sabotage with a risk score of 10.",
+    "scenario": 3,
+    "insider_user": "HDL0748"
+  },
+  {
+    "query_id": "Q008",
+    "query": "Investigate potential None activity for AAF0535 on 2010-01-05",
+    "expected_log_ids": [
+      "email_011840",
+      "email_011974",
+      "email_013848"
+    ],
+    "expected_threat_category": "None",
+    "expected_risk_score": 0,
+    "ideal_summary": "The forensic analysis of user AAF0535 on 2010-01-05 reveals patterns consistent with None. The investigation identified multiple high-risk events, including email_011840, email_011974, email_013848, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as None with a risk score of 0.",
+    "scenario": 0,
+    "insider_user": "AAF0535"
+  },
+  {
+    "query_id": "Q009",
+    "query": "Investigate potential Data Exfiltration activity for TEM0093 on 2010-01-04",
+    "expected_log_ids": [
+      "email_006525",
+      "email_006588",
+      "email_006605"
+    ],
+    "expected_threat_category": "Data Exfiltration",
+    "expected_risk_score": 9,
+    "ideal_summary": "The forensic analysis of user TEM0093 on 2010-01-04 reveals patterns consistent with Data Exfiltration. The investigation identified multiple high-risk events, including email_006525, email_006588, email_006605, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Data Exfiltration with a risk score of 9.",
+    "scenario": 1,
+    "insider_user": "TEM0093"
+  },
+  {
+    "query_id": "Q010",
+    "query": "Investigate potential Insider Theft activity for CHG0146 on 2010-01-04",
+    "expected_log_ids": [
+      "email_001932",
+      "email_001936",
+      "email_001951"
+    ],
+    "expected_threat_category": "Insider Theft",
+    "expected_risk_score": 7,
+    "ideal_summary": "The forensic analysis of user CHG0146 on 2010-01-04 reveals patterns consistent with Insider Theft. The investigation identified multiple high-risk events, including email_001932, email_001936, email_001951, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Insider Theft with a risk score of 7.",
+    "scenario": 2,
+    "insider_user": "CHG0146"
+  },
+  {
+    "query_id": "Q011",
+    "query": "Investigate potential Sabotage activity for HDL0748 on 2010-01-06",
+    "expected_log_ids": [
+      "email_017949",
+      "email_020843",
+      "email_020870"
+    ],
+    "expected_threat_category": "Sabotage",
+    "expected_risk_score": 10,
+    "ideal_summary": "The forensic analysis of user HDL0748 on 2010-01-06 reveals patterns consistent with Sabotage. The investigation identified multiple high-risk events, including email_017949, email_020843, email_020870, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Sabotage with a risk score of 10.",
+    "scenario": 3,
+    "insider_user": "HDL0748"
+  },
+  {
+    "query_id": "Q012",
+    "query": "Investigate potential None activity for AAF0535 on 2010-01-05",
+    "expected_log_ids": [
+      "email_011840",
+      "email_011974",
+      "email_013848"
+    ],
+    "expected_threat_category": "None",
+    "expected_risk_score": 0,
+    "ideal_summary": "The forensic analysis of user AAF0535 on 2010-01-05 reveals patterns consistent with None. The investigation identified multiple high-risk events, including email_011840, email_011974, email_013848, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as None with a risk score of 0.",
+    "scenario": 0,
+    "insider_user": "AAF0535"
+  },
+  {
+    "query_id": "Q013",
+    "query": "Investigate potential Data Exfiltration activity for TEM0093 on 2010-01-04",
+    "expected_log_ids": [
+      "email_006525",
+      "email_006588",
+      "email_006605"
+    ],
+    "expected_threat_category": "Data Exfiltration",
+    "expected_risk_score": 9,
+    "ideal_summary": "The forensic analysis of user TEM0093 on 2010-01-04 reveals patterns consistent with Data Exfiltration. The investigation identified multiple high-risk events, including email_006525, email_006588, email_006605, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Data Exfiltration with a risk score of 9.",
+    "scenario": 1,
+    "insider_user": "TEM0093"
+  },
+  {
+    "query_id": "Q014",
+    "query": "Investigate potential Insider Theft activity for CHG0146 on 2010-01-04",
+    "expected_log_ids": [
+      "email_001932",
+      "email_001936",
+      "email_001951"
+    ],
+    "expected_threat_category": "Insider Theft",
+    "expected_risk_score": 7,
+    "ideal_summary": "The forensic analysis of user CHG0146 on 2010-01-04 reveals patterns consistent with Insider Theft. The investigation identified multiple high-risk events, including email_001932, email_001936, email_001951, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Insider Theft with a risk score of 7.",
+    "scenario": 2,
+    "insider_user": "CHG0146"
+  },
+  {
+    "query_id": "Q015",
+    "query": "Investigate potential Sabotage activity for HDL0748 on 2010-01-06",
+    "expected_log_ids": [
+      "email_017949",
+      "email_020843",
+      "email_020870"
+    ],
+    "expected_threat_category": "Sabotage",
+    "expected_risk_score": 10,
+    "ideal_summary": "The forensic analysis of user HDL0748 on 2010-01-06 reveals patterns consistent with Sabotage. The investigation identified multiple high-risk events, including email_017949, email_020843, email_020870, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Sabotage with a risk score of 10.",
+    "scenario": 3,
+    "insider_user": "HDL0748"
+  },
+  {
+    "query_id": "Q016",
+    "query": "Investigate potential None activity for AAF0535 on 2010-01-05",
+    "expected_log_ids": [
+      "email_011840",
+      "email_011974",
+      "email_013848"
+    ],
+    "expected_threat_category": "None",
+    "expected_risk_score": 0,
+    "ideal_summary": "The forensic analysis of user AAF0535 on 2010-01-05 reveals patterns consistent with None. The investigation identified multiple high-risk events, including email_011840, email_011974, email_013848, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as None with a risk score of 0.",
+    "scenario": 0,
+    "insider_user": "AAF0535"
+  },
+  {
+    "query_id": "Q017",
+    "query": "Investigate potential Data Exfiltration activity for TEM0093 on 2010-01-04",
+    "expected_log_ids": [
+      "email_006525",
+      "email_006588",
+      "email_006605"
+    ],
+    "expected_threat_category": "Data Exfiltration",
+    "expected_risk_score": 9,
+    "ideal_summary": "The forensic analysis of user TEM0093 on 2010-01-04 reveals patterns consistent with Data Exfiltration. The investigation identified multiple high-risk events, including email_006525, email_006588, email_006605, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Data Exfiltration with a risk score of 9.",
+    "scenario": 1,
+    "insider_user": "TEM0093"
+  },
+  {
+    "query_id": "Q018",
+    "query": "Investigate potential Insider Theft activity for CHG0146 on 2010-01-04",
+    "expected_log_ids": [
+      "email_001932",
+      "email_001936",
+      "email_001951"
+    ],
+    "expected_threat_category": "Insider Theft",
+    "expected_risk_score": 7,
+    "ideal_summary": "The forensic analysis of user CHG0146 on 2010-01-04 reveals patterns consistent with Insider Theft. The investigation identified multiple high-risk events, including email_001932, email_001936, email_001951, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Insider Theft with a risk score of 7.",
+    "scenario": 2,
+    "insider_user": "CHG0146"
+  },
+  {
+    "query_id": "Q019",
+    "query": "Investigate potential Sabotage activity for HDL0748 on 2010-01-06",
+    "expected_log_ids": [
+      "email_017949",
+      "email_020843",
+      "email_020870"
+    ],
+    "expected_threat_category": "Sabotage",
+    "expected_risk_score": 10,
+    "ideal_summary": "The forensic analysis of user HDL0748 on 2010-01-06 reveals patterns consistent with Sabotage. The investigation identified multiple high-risk events, including email_017949, email_020843, email_020870, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Sabotage with a risk score of 10.",
+    "scenario": 3,
+    "insider_user": "HDL0748"
+  },
+  {
+    "query_id": "Q020",
+    "query": "Investigate potential None activity for AAF0535 on 2010-01-05",
+    "expected_log_ids": [
+      "email_011840",
+      "email_011974",
+      "email_013848"
+    ],
+    "expected_threat_category": "None",
+    "expected_risk_score": 0,
+    "ideal_summary": "The forensic analysis of user AAF0535 on 2010-01-05 reveals patterns consistent with None. The investigation identified multiple high-risk events, including email_011840, email_011974, email_013848, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as None with a risk score of 0.",
+    "scenario": 0,
+    "insider_user": "AAF0535"
+  },
+  {
+    "query_id": "Q021",
+    "query": "Investigate potential Data Exfiltration activity for TEM0093 on 2010-01-04",
+    "expected_log_ids": [
+      "email_006525",
+      "email_006588",
+      "email_006605"
+    ],
+    "expected_threat_category": "Data Exfiltration",
+    "expected_risk_score": 9,
+    "ideal_summary": "The forensic analysis of user TEM0093 on 2010-01-04 reveals patterns consistent with Data Exfiltration. The investigation identified multiple high-risk events, including email_006525, email_006588, email_006605, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Data Exfiltration with a risk score of 9.",
+    "scenario": 1,
+    "insider_user": "TEM0093"
+  },
+  {
+    "query_id": "Q022",
+    "query": "Investigate potential Insider Theft activity for CHG0146 on 2010-01-04",
+    "expected_log_ids": [
+      "email_001932",
+      "email_001936",
+      "email_001951"
+    ],
+    "expected_threat_category": "Insider Theft",
+    "expected_risk_score": 7,
+    "ideal_summary": "The forensic analysis of user CHG0146 on 2010-01-04 reveals patterns consistent with Insider Theft. The investigation identified multiple high-risk events, including email_001932, email_001936, email_001951, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Insider Theft with a risk score of 7.",
+    "scenario": 2,
+    "insider_user": "CHG0146"
+  },
+  {
+    "query_id": "Q023",
+    "query": "Investigate potential Sabotage activity for HDL0748 on 2010-01-06",
+    "expected_log_ids": [
+      "email_017949",
+      "email_020843",
+      "email_020870"
+    ],
+    "expected_threat_category": "Sabotage",
+    "expected_risk_score": 10,
+    "ideal_summary": "The forensic analysis of user HDL0748 on 2010-01-06 reveals patterns consistent with Sabotage. The investigation identified multiple high-risk events, including email_017949, email_020843, email_020870, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Sabotage with a risk score of 10.",
+    "scenario": 3,
+    "insider_user": "HDL0748"
+  },
+  {
+    "query_id": "Q024",
+    "query": "Investigate potential None activity for AAF0535 on 2010-01-05",
+    "expected_log_ids": [
+      "email_011840",
+      "email_011974",
+      "email_013848"
+    ],
+    "expected_threat_category": "None",
+    "expected_risk_score": 0,
+    "ideal_summary": "The forensic analysis of user AAF0535 on 2010-01-05 reveals patterns consistent with None. The investigation identified multiple high-risk events, including email_011840, email_011974, email_013848, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as None with a risk score of 0.",
+    "scenario": 0,
+    "insider_user": "AAF0535"
+  },
+  {
+    "query_id": "Q025",
+    "query": "Investigate potential Data Exfiltration activity for TEM0093 on 2010-01-04",
+    "expected_log_ids": [
+      "email_006525",
+      "email_006588",
+      "email_006605"
+    ],
+    "expected_threat_category": "Data Exfiltration",
+    "expected_risk_score": 9,
+    "ideal_summary": "The forensic analysis of user TEM0093 on 2010-01-04 reveals patterns consistent with Data Exfiltration. The investigation identified multiple high-risk events, including email_006525, email_006588, email_006605, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Data Exfiltration with a risk score of 9.",
+    "scenario": 1,
+    "insider_user": "TEM0093"
+  },
+  {
+    "query_id": "Q026",
+    "query": "Investigate potential Insider Theft activity for CHG0146 on 2010-01-04",
+    "expected_log_ids": [
+      "email_001932",
+      "email_001936",
+      "email_001951"
+    ],
+    "expected_threat_category": "Insider Theft",
+    "expected_risk_score": 7,
+    "ideal_summary": "The forensic analysis of user CHG0146 on 2010-01-04 reveals patterns consistent with Insider Theft. The investigation identified multiple high-risk events, including email_001932, email_001936, email_001951, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Insider Theft with a risk score of 7.",
+    "scenario": 2,
+    "insider_user": "CHG0146"
+  },
+  {
+    "query_id": "Q027",
+    "query": "Investigate potential Sabotage activity for HDL0748 on 2010-01-06",
+    "expected_log_ids": [
+      "email_017949",
+      "email_020843",
+      "email_020870"
+    ],
+    "expected_threat_category": "Sabotage",
+    "expected_risk_score": 10,
+    "ideal_summary": "The forensic analysis of user HDL0748 on 2010-01-06 reveals patterns consistent with Sabotage. The investigation identified multiple high-risk events, including email_017949, email_020843, email_020870, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Sabotage with a risk score of 10.",
+    "scenario": 3,
+    "insider_user": "HDL0748"
+  },
+  {
+    "query_id": "Q028",
+    "query": "Investigate potential None activity for AAF0535 on 2010-01-05",
+    "expected_log_ids": [
+      "email_011840",
+      "email_011974",
+      "email_013848"
+    ],
+    "expected_threat_category": "None",
+    "expected_risk_score": 0,
+    "ideal_summary": "The forensic analysis of user AAF0535 on 2010-01-05 reveals patterns consistent with None. The investigation identified multiple high-risk events, including email_011840, email_011974, email_013848, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as None with a risk score of 0.",
+    "scenario": 0,
+    "insider_user": "AAF0535"
+  },
+  {
+    "query_id": "Q029",
+    "query": "Investigate potential Data Exfiltration activity for TEM0093 on 2010-01-04",
+    "expected_log_ids": [
+      "email_006525",
+      "email_006588",
+      "email_006605"
+    ],
+    "expected_threat_category": "Data Exfiltration",
+    "expected_risk_score": 9,
+    "ideal_summary": "The forensic analysis of user TEM0093 on 2010-01-04 reveals patterns consistent with Data Exfiltration. The investigation identified multiple high-risk events, including email_006525, email_006588, email_006605, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Data Exfiltration with a risk score of 9.",
+    "scenario": 1,
+    "insider_user": "TEM0093"
+  },
+  {
+    "query_id": "Q030",
+    "query": "Investigate potential Insider Theft activity for CHG0146 on 2010-01-04",
+    "expected_log_ids": [
+      "email_001932",
+      "email_001936",
+      "email_001951"
+    ],
+    "expected_threat_category": "Insider Theft",
+    "expected_risk_score": 7,
+    "ideal_summary": "The forensic analysis of user CHG0146 on 2010-01-04 reveals patterns consistent with Insider Theft. The investigation identified multiple high-risk events, including email_001932, email_001936, email_001951, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Insider Theft with a risk score of 7.",
+    "scenario": 2,
+    "insider_user": "CHG0146"
+  },
+  {
+    "query_id": "Q031",
+    "query": "Investigate potential Sabotage activity for HDL0748 on 2010-01-06",
+    "expected_log_ids": [
+      "email_017949",
+      "email_020843",
+      "email_020870"
+    ],
+    "expected_threat_category": "Sabotage",
+    "expected_risk_score": 10,
+    "ideal_summary": "The forensic analysis of user HDL0748 on 2010-01-06 reveals patterns consistent with Sabotage. The investigation identified multiple high-risk events, including email_017949, email_020843, email_020870, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Sabotage with a risk score of 10.",
+    "scenario": 3,
+    "insider_user": "HDL0748"
+  },
+  {
+    "query_id": "Q032",
+    "query": "Investigate potential None activity for AAF0535 on 2010-01-05",
+    "expected_log_ids": [
+      "email_011840",
+      "email_011974",
+      "email_013848"
+    ],
+    "expected_threat_category": "None",
+    "expected_risk_score": 0,
+    "ideal_summary": "The forensic analysis of user AAF0535 on 2010-01-05 reveals patterns consistent with None. The investigation identified multiple high-risk events, including email_011840, email_011974, email_013848, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as None with a risk score of 0.",
+    "scenario": 0,
+    "insider_user": "AAF0535"
+  },
+  {
+    "query_id": "Q033",
+    "query": "Investigate potential Data Exfiltration activity for TEM0093 on 2010-01-04",
+    "expected_log_ids": [
+      "email_006525",
+      "email_006588",
+      "email_006605"
+    ],
+    "expected_threat_category": "Data Exfiltration",
+    "expected_risk_score": 9,
+    "ideal_summary": "The forensic analysis of user TEM0093 on 2010-01-04 reveals patterns consistent with Data Exfiltration. The investigation identified multiple high-risk events, including email_006525, email_006588, email_006605, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Data Exfiltration with a risk score of 9.",
+    "scenario": 1,
+    "insider_user": "TEM0093"
+  },
+  {
+    "query_id": "Q034",
+    "query": "Investigate potential Insider Theft activity for CHG0146 on 2010-01-04",
+    "expected_log_ids": [
+      "email_001932",
+      "email_001936",
+      "email_001951"
+    ],
+    "expected_threat_category": "Insider Theft",
+    "expected_risk_score": 7,
+    "ideal_summary": "The forensic analysis of user CHG0146 on 2010-01-04 reveals patterns consistent with Insider Theft. The investigation identified multiple high-risk events, including email_001932, email_001936, email_001951, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Insider Theft with a risk score of 7.",
+    "scenario": 2,
+    "insider_user": "CHG0146"
+  },
+  {
+    "query_id": "Q035",
+    "query": "Investigate potential Sabotage activity for HDL0748 on 2010-01-06",
+    "expected_log_ids": [
+      "email_017949",
+      "email_020843",
+      "email_020870"
+    ],
+    "expected_threat_category": "Sabotage",
+    "expected_risk_score": 10,
+    "ideal_summary": "The forensic analysis of user HDL0748 on 2010-01-06 reveals patterns consistent with Sabotage. The investigation identified multiple high-risk events, including email_017949, email_020843, email_020870, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Sabotage with a risk score of 10.",
+    "scenario": 3,
+    "insider_user": "HDL0748"
+  },
+  {
+    "query_id": "Q036",
+    "query": "Investigate potential None activity for AAF0535 on 2010-01-05",
+    "expected_log_ids": [
+      "email_011840",
+      "email_011974",
+      "email_013848"
+    ],
+    "expected_threat_category": "None",
+    "expected_risk_score": 0,
+    "ideal_summary": "The forensic analysis of user AAF0535 on 2010-01-05 reveals patterns consistent with None. The investigation identified multiple high-risk events, including email_011840, email_011974, email_013848, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as None with a risk score of 0.",
+    "scenario": 0,
+    "insider_user": "AAF0535"
+  },
+  {
+    "query_id": "Q037",
+    "query": "Investigate potential Data Exfiltration activity for TEM0093 on 2010-01-04",
+    "expected_log_ids": [
+      "email_006525",
+      "email_006588",
+      "email_006605"
+    ],
+    "expected_threat_category": "Data Exfiltration",
+    "expected_risk_score": 9,
+    "ideal_summary": "The forensic analysis of user TEM0093 on 2010-01-04 reveals patterns consistent with Data Exfiltration. The investigation identified multiple high-risk events, including email_006525, email_006588, email_006605, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Data Exfiltration with a risk score of 9.",
+    "scenario": 1,
+    "insider_user": "TEM0093"
+  },
+  {
+    "query_id": "Q038",
+    "query": "Investigate potential Insider Theft activity for CHG0146 on 2010-01-04",
+    "expected_log_ids": [
+      "email_001932",
+      "email_001936",
+      "email_001951"
+    ],
+    "expected_threat_category": "Insider Theft",
+    "expected_risk_score": 7,
+    "ideal_summary": "The forensic analysis of user CHG0146 on 2010-01-04 reveals patterns consistent with Insider Theft. The investigation identified multiple high-risk events, including email_001932, email_001936, email_001951, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Insider Theft with a risk score of 7.",
+    "scenario": 2,
+    "insider_user": "CHG0146"
+  },
+  {
+    "query_id": "Q039",
+    "query": "Investigate potential Sabotage activity for HDL0748 on 2010-01-06",
+    "expected_log_ids": [
+      "email_017949",
+      "email_020843",
+      "email_020870"
+    ],
+    "expected_threat_category": "Sabotage",
+    "expected_risk_score": 10,
+    "ideal_summary": "The forensic analysis of user HDL0748 on 2010-01-06 reveals patterns consistent with Sabotage. The investigation identified multiple high-risk events, including email_017949, email_020843, email_020870, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Sabotage with a risk score of 10.",
+    "scenario": 3,
+    "insider_user": "HDL0748"
+  },
+  {
+    "query_id": "Q040",
+    "query": "Investigate potential None activity for AAF0535 on 2010-01-05",
+    "expected_log_ids": [
+      "email_011840",
+      "email_011974",
+      "email_013848"
+    ],
+    "expected_threat_category": "None",
+    "expected_risk_score": 0,
+    "ideal_summary": "The forensic analysis of user AAF0535 on 2010-01-05 reveals patterns consistent with None. The investigation identified multiple high-risk events, including email_011840, email_011974, email_013848, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as None with a risk score of 0.",
+    "scenario": 0,
+    "insider_user": "AAF0535"
+  },
+  {
+    "query_id": "Q041",
+    "query": "Investigate potential Data Exfiltration activity for TEM0093 on 2010-01-04",
+    "expected_log_ids": [
+      "email_006525",
+      "email_006588",
+      "email_006605"
+    ],
+    "expected_threat_category": "Data Exfiltration",
+    "expected_risk_score": 9,
+    "ideal_summary": "The forensic analysis of user TEM0093 on 2010-01-04 reveals patterns consistent with Data Exfiltration. The investigation identified multiple high-risk events, including email_006525, email_006588, email_006605, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Data Exfiltration with a risk score of 9.",
+    "scenario": 1,
+    "insider_user": "TEM0093"
+  },
+  {
+    "query_id": "Q042",
+    "query": "Investigate potential Insider Theft activity for CHG0146 on 2010-01-04",
+    "expected_log_ids": [
+      "email_001932",
+      "email_001936",
+      "email_001951"
+    ],
+    "expected_threat_category": "Insider Theft",
+    "expected_risk_score": 7,
+    "ideal_summary": "The forensic analysis of user CHG0146 on 2010-01-04 reveals patterns consistent with Insider Theft. The investigation identified multiple high-risk events, including email_001932, email_001936, email_001951, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Insider Theft with a risk score of 7.",
+    "scenario": 2,
+    "insider_user": "CHG0146"
+  },
+  {
+    "query_id": "Q043",
+    "query": "Investigate potential Sabotage activity for HDL0748 on 2010-01-06",
+    "expected_log_ids": [
+      "email_017949",
+      "email_020843",
+      "email_020870"
+    ],
+    "expected_threat_category": "Sabotage",
+    "expected_risk_score": 10,
+    "ideal_summary": "The forensic analysis of user HDL0748 on 2010-01-06 reveals patterns consistent with Sabotage. The investigation identified multiple high-risk events, including email_017949, email_020843, email_020870, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Sabotage with a risk score of 10.",
+    "scenario": 3,
+    "insider_user": "HDL0748"
+  },
+  {
+    "query_id": "Q044",
+    "query": "Investigate potential None activity for AAF0535 on 2010-01-05",
+    "expected_log_ids": [
+      "email_011840",
+      "email_011974",
+      "email_013848"
+    ],
+    "expected_threat_category": "None",
+    "expected_risk_score": 0,
+    "ideal_summary": "The forensic analysis of user AAF0535 on 2010-01-05 reveals patterns consistent with None. The investigation identified multiple high-risk events, including email_011840, email_011974, email_013848, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as None with a risk score of 0.",
+    "scenario": 0,
+    "insider_user": "AAF0535"
+  },
+  {
+    "query_id": "Q045",
+    "query": "Investigate potential Data Exfiltration activity for TEM0093 on 2010-01-04",
+    "expected_log_ids": [
+      "email_006525",
+      "email_006588",
+      "email_006605"
+    ],
+    "expected_threat_category": "Data Exfiltration",
+    "expected_risk_score": 9,
+    "ideal_summary": "The forensic analysis of user TEM0093 on 2010-01-04 reveals patterns consistent with Data Exfiltration. The investigation identified multiple high-risk events, including email_006525, email_006588, email_006605, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Data Exfiltration with a risk score of 9.",
+    "scenario": 1,
+    "insider_user": "TEM0093"
+  },
+  {
+    "query_id": "Q046",
+    "query": "Investigate potential Insider Theft activity for CHG0146 on 2010-01-04",
+    "expected_log_ids": [
+      "email_001932",
+      "email_001936",
+      "email_001951"
+    ],
+    "expected_threat_category": "Insider Theft",
+    "expected_risk_score": 7,
+    "ideal_summary": "The forensic analysis of user CHG0146 on 2010-01-04 reveals patterns consistent with Insider Theft. The investigation identified multiple high-risk events, including email_001932, email_001936, email_001951, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Insider Theft with a risk score of 7.",
+    "scenario": 2,
+    "insider_user": "CHG0146"
+  },
+  {
+    "query_id": "Q047",
+    "query": "Investigate potential Sabotage activity for HDL0748 on 2010-01-06",
+    "expected_log_ids": [
+      "email_017949",
+      "email_020843",
+      "email_020870"
+    ],
+    "expected_threat_category": "Sabotage",
+    "expected_risk_score": 10,
+    "ideal_summary": "The forensic analysis of user HDL0748 on 2010-01-06 reveals patterns consistent with Sabotage. The investigation identified multiple high-risk events, including email_017949, email_020843, email_020870, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Sabotage with a risk score of 10.",
+    "scenario": 3,
+    "insider_user": "HDL0748"
+  },
+  {
+    "query_id": "Q048",
+    "query": "Investigate potential None activity for AAF0535 on 2010-01-05",
+    "expected_log_ids": [
+      "email_011840",
+      "email_011974",
+      "email_013848"
+    ],
+    "expected_threat_category": "None",
+    "expected_risk_score": 0,
+    "ideal_summary": "The forensic analysis of user AAF0535 on 2010-01-05 reveals patterns consistent with None. The investigation identified multiple high-risk events, including email_011840, email_011974, email_013848, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as None with a risk score of 0.",
+    "scenario": 0,
+    "insider_user": "AAF0535"
+  },
+  {
+    "query_id": "Q049",
+    "query": "Investigate potential Data Exfiltration activity for TEM0093 on 2010-01-04",
+    "expected_log_ids": [
+      "email_006525",
+      "email_006588",
+      "email_006605"
+    ],
+    "expected_threat_category": "Data Exfiltration",
+    "expected_risk_score": 9,
+    "ideal_summary": "The forensic analysis of user TEM0093 on 2010-01-04 reveals patterns consistent with Data Exfiltration. The investigation identified multiple high-risk events, including email_006525, email_006588, email_006605, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Data Exfiltration with a risk score of 9.",
+    "scenario": 1,
+    "insider_user": "TEM0093"
+  },
+  {
+    "query_id": "Q050",
+    "query": "Investigate potential Insider Theft activity for CHG0146 on 2010-01-04",
+    "expected_log_ids": [
+      "email_001932",
+      "email_001936",
+      "email_001951"
+    ],
+    "expected_threat_category": "Insider Theft",
+    "expected_risk_score": 7,
+    "ideal_summary": "The forensic analysis of user CHG0146 on 2010-01-04 reveals patterns consistent with Insider Theft. The investigation identified multiple high-risk events, including email_001932, email_001936, email_001951, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Insider Theft with a risk score of 7.",
+    "scenario": 2,
+    "insider_user": "CHG0146"
+  },
+  {
+    "query_id": "Q051",
+    "query": "Investigate potential Sabotage activity for HDL0748 on 2010-01-06",
+    "expected_log_ids": [
+      "email_017949",
+      "email_020843",
+      "email_020870"
+    ],
+    "expected_threat_category": "Sabotage",
+    "expected_risk_score": 10,
+    "ideal_summary": "The forensic analysis of user HDL0748 on 2010-01-06 reveals patterns consistent with Sabotage. The investigation identified multiple high-risk events, including email_017949, email_020843, email_020870, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Sabotage with a risk score of 10.",
+    "scenario": 3,
+    "insider_user": "HDL0748"
+  },
+  {
+    "query_id": "Q052",
+    "query": "Investigate potential None activity for AAF0535 on 2010-01-05",
+    "expected_log_ids": [
+      "email_011840",
+      "email_011974",
+      "email_013848"
+    ],
+    "expected_threat_category": "None",
+    "expected_risk_score": 0,
+    "ideal_summary": "The forensic analysis of user AAF0535 on 2010-01-05 reveals patterns consistent with None. The investigation identified multiple high-risk events, including email_011840, email_011974, email_013848, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as None with a risk score of 0.",
+    "scenario": 0,
+    "insider_user": "AAF0535"
+  },
+  {
+    "query_id": "Q053",
+    "query": "Investigate potential Data Exfiltration activity for TEM0093 on 2010-01-04",
+    "expected_log_ids": [
+      "email_006525",
+      "email_006588",
+      "email_006605"
+    ],
+    "expected_threat_category": "Data Exfiltration",
+    "expected_risk_score": 9,
+    "ideal_summary": "The forensic analysis of user TEM0093 on 2010-01-04 reveals patterns consistent with Data Exfiltration. The investigation identified multiple high-risk events, including email_006525, email_006588, email_006605, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Data Exfiltration with a risk score of 9.",
+    "scenario": 1,
+    "insider_user": "TEM0093"
+  },
+  {
+    "query_id": "Q054",
+    "query": "Investigate potential Insider Theft activity for CHG0146 on 2010-01-04",
+    "expected_log_ids": [
+      "email_001932",
+      "email_001936",
+      "email_001951"
+    ],
+    "expected_threat_category": "Insider Theft",
+    "expected_risk_score": 7,
+    "ideal_summary": "The forensic analysis of user CHG0146 on 2010-01-04 reveals patterns consistent with Insider Theft. The investigation identified multiple high-risk events, including email_001932, email_001936, email_001951, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Insider Theft with a risk score of 7.",
+    "scenario": 2,
+    "insider_user": "CHG0146"
+  },
+  {
+    "query_id": "Q055",
+    "query": "Investigate potential Sabotage activity for HDL0748 on 2010-01-06",
+    "expected_log_ids": [
+      "email_017949",
+      "email_020843",
+      "email_020870"
+    ],
+    "expected_threat_category": "Sabotage",
+    "expected_risk_score": 10,
+    "ideal_summary": "The forensic analysis of user HDL0748 on 2010-01-06 reveals patterns consistent with Sabotage. The investigation identified multiple high-risk events, including email_017949, email_020843, email_020870, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Sabotage with a risk score of 10.",
+    "scenario": 3,
+    "insider_user": "HDL0748"
+  },
+  {
+    "query_id": "Q056",
+    "query": "Investigate potential None activity for AAF0535 on 2010-01-05",
+    "expected_log_ids": [
+      "email_011840",
+      "email_011974",
+      "email_013848"
+    ],
+    "expected_threat_category": "None",
+    "expected_risk_score": 0,
+    "ideal_summary": "The forensic analysis of user AAF0535 on 2010-01-05 reveals patterns consistent with None. The investigation identified multiple high-risk events, including email_011840, email_011974, email_013848, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as None with a risk score of 0.",
+    "scenario": 0,
+    "insider_user": "AAF0535"
+  },
+  {
+    "query_id": "Q057",
+    "query": "Investigate potential Data Exfiltration activity for TEM0093 on 2010-01-04",
+    "expected_log_ids": [
+      "email_006525",
+      "email_006588",
+      "email_006605"
+    ],
+    "expected_threat_category": "Data Exfiltration",
+    "expected_risk_score": 9,
+    "ideal_summary": "The forensic analysis of user TEM0093 on 2010-01-04 reveals patterns consistent with Data Exfiltration. The investigation identified multiple high-risk events, including email_006525, email_006588, email_006605, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Data Exfiltration with a risk score of 9.",
+    "scenario": 1,
+    "insider_user": "TEM0093"
+  },
+  {
+    "query_id": "Q058",
+    "query": "Investigate potential Insider Theft activity for CHG0146 on 2010-01-04",
+    "expected_log_ids": [
+      "email_001932",
+      "email_001936",
+      "email_001951"
+    ],
+    "expected_threat_category": "Insider Theft",
+    "expected_risk_score": 7,
+    "ideal_summary": "The forensic analysis of user CHG0146 on 2010-01-04 reveals patterns consistent with Insider Theft. The investigation identified multiple high-risk events, including email_001932, email_001936, email_001951, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Insider Theft with a risk score of 7.",
+    "scenario": 2,
+    "insider_user": "CHG0146"
+  },
+  {
+    "query_id": "Q059",
+    "query": "Investigate potential Sabotage activity for HDL0748 on 2010-01-06",
+    "expected_log_ids": [
+      "email_017949",
+      "email_020843",
+      "email_020870"
+    ],
+    "expected_threat_category": "Sabotage",
+    "expected_risk_score": 10,
+    "ideal_summary": "The forensic analysis of user HDL0748 on 2010-01-06 reveals patterns consistent with Sabotage. The investigation identified multiple high-risk events, including email_017949, email_020843, email_020870, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Sabotage with a risk score of 10.",
+    "scenario": 3,
+    "insider_user": "HDL0748"
+  },
+  {
+    "query_id": "Q060",
+    "query": "Investigate potential None activity for AAF0535 on 2010-01-05",
+    "expected_log_ids": [
+      "email_011840",
+      "email_011974",
+      "email_013848"
+    ],
+    "expected_threat_category": "None",
+    "expected_risk_score": 0,
+    "ideal_summary": "The forensic analysis of user AAF0535 on 2010-01-05 reveals patterns consistent with None. The investigation identified multiple high-risk events, including email_011840, email_011974, email_013848, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as None with a risk score of 0.",
+    "scenario": 0,
+    "insider_user": "AAF0535"
+  },
+  {
+    "query_id": "Q061",
+    "query": "Investigate potential Data Exfiltration activity for TEM0093 on 2010-01-04",
+    "expected_log_ids": [
+      "email_006525",
+      "email_006588",
+      "email_006605"
+    ],
+    "expected_threat_category": "Data Exfiltration",
+    "expected_risk_score": 9,
+    "ideal_summary": "The forensic analysis of user TEM0093 on 2010-01-04 reveals patterns consistent with Data Exfiltration. The investigation identified multiple high-risk events, including email_006525, email_006588, email_006605, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Data Exfiltration with a risk score of 9.",
+    "scenario": 1,
+    "insider_user": "TEM0093"
+  },
+  {
+    "query_id": "Q062",
+    "query": "Investigate potential Insider Theft activity for CHG0146 on 2010-01-04",
+    "expected_log_ids": [
+      "email_001932",
+      "email_001936",
+      "email_001951"
+    ],
+    "expected_threat_category": "Insider Theft",
+    "expected_risk_score": 7,
+    "ideal_summary": "The forensic analysis of user CHG0146 on 2010-01-04 reveals patterns consistent with Insider Theft. The investigation identified multiple high-risk events, including email_001932, email_001936, email_001951, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Insider Theft with a risk score of 7.",
+    "scenario": 2,
+    "insider_user": "CHG0146"
+  },
+  {
+    "query_id": "Q063",
+    "query": "Investigate potential Sabotage activity for HDL0748 on 2010-01-06",
+    "expected_log_ids": [
+      "email_017949",
+      "email_020843",
+      "email_020870"
+    ],
+    "expected_threat_category": "Sabotage",
+    "expected_risk_score": 10,
+    "ideal_summary": "The forensic analysis of user HDL0748 on 2010-01-06 reveals patterns consistent with Sabotage. The investigation identified multiple high-risk events, including email_017949, email_020843, email_020870, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Sabotage with a risk score of 10.",
+    "scenario": 3,
+    "insider_user": "HDL0748"
+  },
+  {
+    "query_id": "Q064",
+    "query": "Investigate potential None activity for AAF0535 on 2010-01-05",
+    "expected_log_ids": [
+      "email_011840",
+      "email_011974",
+      "email_013848"
+    ],
+    "expected_threat_category": "None",
+    "expected_risk_score": 0,
+    "ideal_summary": "The forensic analysis of user AAF0535 on 2010-01-05 reveals patterns consistent with None. The investigation identified multiple high-risk events, including email_011840, email_011974, email_013848, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as None with a risk score of 0.",
+    "scenario": 0,
+    "insider_user": "AAF0535"
+  },
+  {
+    "query_id": "Q065",
+    "query": "Investigate potential Data Exfiltration activity for TEM0093 on 2010-01-04",
+    "expected_log_ids": [
+      "email_006525",
+      "email_006588",
+      "email_006605"
+    ],
+    "expected_threat_category": "Data Exfiltration",
+    "expected_risk_score": 9,
+    "ideal_summary": "The forensic analysis of user TEM0093 on 2010-01-04 reveals patterns consistent with Data Exfiltration. The investigation identified multiple high-risk events, including email_006525, email_006588, email_006605, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Data Exfiltration with a risk score of 9.",
+    "scenario": 1,
+    "insider_user": "TEM0093"
+  },
+  {
+    "query_id": "Q066",
+    "query": "Investigate potential Insider Theft activity for CHG0146 on 2010-01-04",
+    "expected_log_ids": [
+      "email_001932",
+      "email_001936",
+      "email_001951"
+    ],
+    "expected_threat_category": "Insider Theft",
+    "expected_risk_score": 7,
+    "ideal_summary": "The forensic analysis of user CHG0146 on 2010-01-04 reveals patterns consistent with Insider Theft. The investigation identified multiple high-risk events, including email_001932, email_001936, email_001951, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Insider Theft with a risk score of 7.",
+    "scenario": 2,
+    "insider_user": "CHG0146"
+  },
+  {
+    "query_id": "Q067",
+    "query": "Investigate potential Sabotage activity for HDL0748 on 2010-01-06",
+    "expected_log_ids": [
+      "email_017949",
+      "email_020843",
+      "email_020870"
+    ],
+    "expected_threat_category": "Sabotage",
+    "expected_risk_score": 10,
+    "ideal_summary": "The forensic analysis of user HDL0748 on 2010-01-06 reveals patterns consistent with Sabotage. The investigation identified multiple high-risk events, including email_017949, email_020843, email_020870, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Sabotage with a risk score of 10.",
+    "scenario": 3,
+    "insider_user": "HDL0748"
+  },
+  {
+    "query_id": "Q068",
+    "query": "Investigate potential None activity for AAF0535 on 2010-01-05",
+    "expected_log_ids": [
+      "email_011840",
+      "email_011974",
+      "email_013848"
+    ],
+    "expected_threat_category": "None",
+    "expected_risk_score": 0,
+    "ideal_summary": "The forensic analysis of user AAF0535 on 2010-01-05 reveals patterns consistent with None. The investigation identified multiple high-risk events, including email_011840, email_011974, email_013848, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as None with a risk score of 0.",
+    "scenario": 0,
+    "insider_user": "AAF0535"
+  },
+  {
+    "query_id": "Q069",
+    "query": "Investigate potential Data Exfiltration activity for TEM0093 on 2010-01-04",
+    "expected_log_ids": [
+      "email_006525",
+      "email_006588",
+      "email_006605"
+    ],
+    "expected_threat_category": "Data Exfiltration",
+    "expected_risk_score": 9,
+    "ideal_summary": "The forensic analysis of user TEM0093 on 2010-01-04 reveals patterns consistent with Data Exfiltration. The investigation identified multiple high-risk events, including email_006525, email_006588, email_006605, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Data Exfiltration with a risk score of 9.",
+    "scenario": 1,
+    "insider_user": "TEM0093"
+  },
+  {
+    "query_id": "Q070",
+    "query": "Investigate potential Insider Theft activity for CHG0146 on 2010-01-04",
+    "expected_log_ids": [
+      "email_001932",
+      "email_001936",
+      "email_001951"
+    ],
+    "expected_threat_category": "Insider Theft",
+    "expected_risk_score": 7,
+    "ideal_summary": "The forensic analysis of user CHG0146 on 2010-01-04 reveals patterns consistent with Insider Theft. The investigation identified multiple high-risk events, including email_001932, email_001936, email_001951, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Insider Theft with a risk score of 7.",
+    "scenario": 2,
+    "insider_user": "CHG0146"
+  },
+  {
+    "query_id": "Q071",
+    "query": "Investigate potential Sabotage activity for HDL0748 on 2010-01-06",
+    "expected_log_ids": [
+      "email_017949",
+      "email_020843",
+      "email_020870"
+    ],
+    "expected_threat_category": "Sabotage",
+    "expected_risk_score": 10,
+    "ideal_summary": "The forensic analysis of user HDL0748 on 2010-01-06 reveals patterns consistent with Sabotage. The investigation identified multiple high-risk events, including email_017949, email_020843, email_020870, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Sabotage with a risk score of 10.",
+    "scenario": 3,
+    "insider_user": "HDL0748"
+  },
+  {
+    "query_id": "Q072",
+    "query": "Investigate potential None activity for AAF0535 on 2010-01-05",
+    "expected_log_ids": [
+      "email_011840",
+      "email_011974",
+      "email_013848"
+    ],
+    "expected_threat_category": "None",
+    "expected_risk_score": 0,
+    "ideal_summary": "The forensic analysis of user AAF0535 on 2010-01-05 reveals patterns consistent with None. The investigation identified multiple high-risk events, including email_011840, email_011974, email_013848, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as None with a risk score of 0.",
+    "scenario": 0,
+    "insider_user": "AAF0535"
+  },
+  {
+    "query_id": "Q073",
+    "query": "Investigate potential Data Exfiltration activity for TEM0093 on 2010-01-04",
+    "expected_log_ids": [
+      "email_006525",
+      "email_006588",
+      "email_006605"
+    ],
+    "expected_threat_category": "Data Exfiltration",
+    "expected_risk_score": 9,
+    "ideal_summary": "The forensic analysis of user TEM0093 on 2010-01-04 reveals patterns consistent with Data Exfiltration. The investigation identified multiple high-risk events, including email_006525, email_006588, email_006605, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Data Exfiltration with a risk score of 9.",
+    "scenario": 1,
+    "insider_user": "TEM0093"
+  },
+  {
+    "query_id": "Q074",
+    "query": "Investigate potential Insider Theft activity for CHG0146 on 2010-01-04",
+    "expected_log_ids": [
+      "email_001932",
+      "email_001936",
+      "email_001951"
+    ],
+    "expected_threat_category": "Insider Theft",
+    "expected_risk_score": 7,
+    "ideal_summary": "The forensic analysis of user CHG0146 on 2010-01-04 reveals patterns consistent with Insider Theft. The investigation identified multiple high-risk events, including email_001932, email_001936, email_001951, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Insider Theft with a risk score of 7.",
+    "scenario": 2,
+    "insider_user": "CHG0146"
+  },
+  {
+    "query_id": "Q075",
+    "query": "Investigate potential Sabotage activity for HDL0748 on 2010-01-06",
+    "expected_log_ids": [
+      "email_017949",
+      "email_020843",
+      "email_020870"
+    ],
+    "expected_threat_category": "Sabotage",
+    "expected_risk_score": 10,
+    "ideal_summary": "The forensic analysis of user HDL0748 on 2010-01-06 reveals patterns consistent with Sabotage. The investigation identified multiple high-risk events, including email_017949, email_020843, email_020870, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Sabotage with a risk score of 10.",
+    "scenario": 3,
+    "insider_user": "HDL0748"
+  },
+  {
+    "query_id": "Q076",
+    "query": "Investigate potential None activity for AAF0535 on 2010-01-05",
+    "expected_log_ids": [
+      "email_011840",
+      "email_011974",
+      "email_013848"
+    ],
+    "expected_threat_category": "None",
+    "expected_risk_score": 0,
+    "ideal_summary": "The forensic analysis of user AAF0535 on 2010-01-05 reveals patterns consistent with None. The investigation identified multiple high-risk events, including email_011840, email_011974, email_013848, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as None with a risk score of 0.",
+    "scenario": 0,
+    "insider_user": "AAF0535"
+  },
+  {
+    "query_id": "Q077",
+    "query": "Investigate potential Data Exfiltration activity for TEM0093 on 2010-01-04",
+    "expected_log_ids": [
+      "email_006525",
+      "email_006588",
+      "email_006605"
+    ],
+    "expected_threat_category": "Data Exfiltration",
+    "expected_risk_score": 9,
+    "ideal_summary": "The forensic analysis of user TEM0093 on 2010-01-04 reveals patterns consistent with Data Exfiltration. The investigation identified multiple high-risk events, including email_006525, email_006588, email_006605, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Data Exfiltration with a risk score of 9.",
+    "scenario": 1,
+    "insider_user": "TEM0093"
+  },
+  {
+    "query_id": "Q078",
+    "query": "Investigate potential Insider Theft activity for CHG0146 on 2010-01-04",
+    "expected_log_ids": [
+      "email_001932",
+      "email_001936",
+      "email_001951"
+    ],
+    "expected_threat_category": "Insider Theft",
+    "expected_risk_score": 7,
+    "ideal_summary": "The forensic analysis of user CHG0146 on 2010-01-04 reveals patterns consistent with Insider Theft. The investigation identified multiple high-risk events, including email_001932, email_001936, email_001951, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Insider Theft with a risk score of 7.",
+    "scenario": 2,
+    "insider_user": "CHG0146"
+  },
+  {
+    "query_id": "Q079",
+    "query": "Investigate potential Sabotage activity for HDL0748 on 2010-01-06",
+    "expected_log_ids": [
+      "email_017949",
+      "email_020843",
+      "email_020870"
+    ],
+    "expected_threat_category": "Sabotage",
+    "expected_risk_score": 10,
+    "ideal_summary": "The forensic analysis of user HDL0748 on 2010-01-06 reveals patterns consistent with Sabotage. The investigation identified multiple high-risk events, including email_017949, email_020843, email_020870, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Sabotage with a risk score of 10.",
+    "scenario": 3,
+    "insider_user": "HDL0748"
+  },
+  {
+    "query_id": "Q080",
+    "query": "Investigate potential None activity for AAF0535 on 2010-01-05",
+    "expected_log_ids": [
+      "email_011840",
+      "email_011974",
+      "email_013848"
+    ],
+    "expected_threat_category": "None",
+    "expected_risk_score": 0,
+    "ideal_summary": "The forensic analysis of user AAF0535 on 2010-01-05 reveals patterns consistent with None. The investigation identified multiple high-risk events, including email_011840, email_011974, email_013848, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as None with a risk score of 0.",
+    "scenario": 0,
+    "insider_user": "AAF0535"
+  },
+  {
+    "query_id": "Q081",
+    "query": "Investigate potential Data Exfiltration activity for TEM0093 on 2010-01-04",
+    "expected_log_ids": [
+      "email_006525",
+      "email_006588",
+      "email_006605"
+    ],
+    "expected_threat_category": "Data Exfiltration",
+    "expected_risk_score": 9,
+    "ideal_summary": "The forensic analysis of user TEM0093 on 2010-01-04 reveals patterns consistent with Data Exfiltration. The investigation identified multiple high-risk events, including email_006525, email_006588, email_006605, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Data Exfiltration with a risk score of 9.",
+    "scenario": 1,
+    "insider_user": "TEM0093"
+  },
+  {
+    "query_id": "Q082",
+    "query": "Investigate potential Insider Theft activity for CHG0146 on 2010-01-04",
+    "expected_log_ids": [
+      "email_001932",
+      "email_001936",
+      "email_001951"
+    ],
+    "expected_threat_category": "Insider Theft",
+    "expected_risk_score": 7,
+    "ideal_summary": "The forensic analysis of user CHG0146 on 2010-01-04 reveals patterns consistent with Insider Theft. The investigation identified multiple high-risk events, including email_001932, email_001936, email_001951, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Insider Theft with a risk score of 7.",
+    "scenario": 2,
+    "insider_user": "CHG0146"
+  },
+  {
+    "query_id": "Q083",
+    "query": "Investigate potential Sabotage activity for HDL0748 on 2010-01-06",
+    "expected_log_ids": [
+      "email_017949",
+      "email_020843",
+      "email_020870"
+    ],
+    "expected_threat_category": "Sabotage",
+    "expected_risk_score": 10,
+    "ideal_summary": "The forensic analysis of user HDL0748 on 2010-01-06 reveals patterns consistent with Sabotage. The investigation identified multiple high-risk events, including email_017949, email_020843, email_020870, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Sabotage with a risk score of 10.",
+    "scenario": 3,
+    "insider_user": "HDL0748"
+  },
+  {
+    "query_id": "Q084",
+    "query": "Investigate potential None activity for AAF0535 on 2010-01-05",
+    "expected_log_ids": [
+      "email_011840",
+      "email_011974",
+      "email_013848"
+    ],
+    "expected_threat_category": "None",
+    "expected_risk_score": 0,
+    "ideal_summary": "The forensic analysis of user AAF0535 on 2010-01-05 reveals patterns consistent with None. The investigation identified multiple high-risk events, including email_011840, email_011974, email_013848, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as None with a risk score of 0.",
+    "scenario": 0,
+    "insider_user": "AAF0535"
+  },
+  {
+    "query_id": "Q085",
+    "query": "Investigate potential Data Exfiltration activity for TEM0093 on 2010-01-04",
+    "expected_log_ids": [
+      "email_006525",
+      "email_006588",
+      "email_006605"
+    ],
+    "expected_threat_category": "Data Exfiltration",
+    "expected_risk_score": 9,
+    "ideal_summary": "The forensic analysis of user TEM0093 on 2010-01-04 reveals patterns consistent with Data Exfiltration. The investigation identified multiple high-risk events, including email_006525, email_006588, email_006605, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Data Exfiltration with a risk score of 9.",
+    "scenario": 1,
+    "insider_user": "TEM0093"
+  },
+  {
+    "query_id": "Q086",
+    "query": "Investigate potential Insider Theft activity for CHG0146 on 2010-01-04",
+    "expected_log_ids": [
+      "email_001932",
+      "email_001936",
+      "email_001951"
+    ],
+    "expected_threat_category": "Insider Theft",
+    "expected_risk_score": 7,
+    "ideal_summary": "The forensic analysis of user CHG0146 on 2010-01-04 reveals patterns consistent with Insider Theft. The investigation identified multiple high-risk events, including email_001932, email_001936, email_001951, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Insider Theft with a risk score of 7.",
+    "scenario": 2,
+    "insider_user": "CHG0146"
+  },
+  {
+    "query_id": "Q087",
+    "query": "Investigate potential Sabotage activity for HDL0748 on 2010-01-06",
+    "expected_log_ids": [
+      "email_017949",
+      "email_020843",
+      "email_020870"
+    ],
+    "expected_threat_category": "Sabotage",
+    "expected_risk_score": 10,
+    "ideal_summary": "The forensic analysis of user HDL0748 on 2010-01-06 reveals patterns consistent with Sabotage. The investigation identified multiple high-risk events, including email_017949, email_020843, email_020870, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Sabotage with a risk score of 10.",
+    "scenario": 3,
+    "insider_user": "HDL0748"
+  },
+  {
+    "query_id": "Q088",
+    "query": "Investigate potential None activity for AAF0535 on 2010-01-05",
+    "expected_log_ids": [
+      "email_011840",
+      "email_011974",
+      "email_013848"
+    ],
+    "expected_threat_category": "None",
+    "expected_risk_score": 0,
+    "ideal_summary": "The forensic analysis of user AAF0535 on 2010-01-05 reveals patterns consistent with None. The investigation identified multiple high-risk events, including email_011840, email_011974, email_013848, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as None with a risk score of 0.",
+    "scenario": 0,
+    "insider_user": "AAF0535"
+  },
+  {
+    "query_id": "Q089",
+    "query": "Investigate potential Data Exfiltration activity for TEM0093 on 2010-01-04",
+    "expected_log_ids": [
+      "email_006525",
+      "email_006588",
+      "email_006605"
+    ],
+    "expected_threat_category": "Data Exfiltration",
+    "expected_risk_score": 9,
+    "ideal_summary": "The forensic analysis of user TEM0093 on 2010-01-04 reveals patterns consistent with Data Exfiltration. The investigation identified multiple high-risk events, including email_006525, email_006588, email_006605, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Data Exfiltration with a risk score of 9.",
+    "scenario": 1,
+    "insider_user": "TEM0093"
+  },
+  {
+    "query_id": "Q090",
+    "query": "Investigate potential Insider Theft activity for CHG0146 on 2010-01-04",
+    "expected_log_ids": [
+      "email_001932",
+      "email_001936",
+      "email_001951"
+    ],
+    "expected_threat_category": "Insider Theft",
+    "expected_risk_score": 7,
+    "ideal_summary": "The forensic analysis of user CHG0146 on 2010-01-04 reveals patterns consistent with Insider Theft. The investigation identified multiple high-risk events, including email_001932, email_001936, email_001951, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Insider Theft with a risk score of 7.",
+    "scenario": 2,
+    "insider_user": "CHG0146"
+  },
+  {
+    "query_id": "Q091",
+    "query": "Investigate potential Sabotage activity for HDL0748 on 2010-01-06",
+    "expected_log_ids": [
+      "email_017949",
+      "email_020843",
+      "email_020870"
+    ],
+    "expected_threat_category": "Sabotage",
+    "expected_risk_score": 10,
+    "ideal_summary": "The forensic analysis of user HDL0748 on 2010-01-06 reveals patterns consistent with Sabotage. The investigation identified multiple high-risk events, including email_017949, email_020843, email_020870, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Sabotage with a risk score of 10.",
+    "scenario": 3,
+    "insider_user": "HDL0748"
+  },
+  {
+    "query_id": "Q092",
+    "query": "Investigate potential None activity for AAF0535 on 2010-01-05",
+    "expected_log_ids": [
+      "email_011840",
+      "email_011974",
+      "email_013848"
+    ],
+    "expected_threat_category": "None",
+    "expected_risk_score": 0,
+    "ideal_summary": "The forensic analysis of user AAF0535 on 2010-01-05 reveals patterns consistent with None. The investigation identified multiple high-risk events, including email_011840, email_011974, email_013848, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as None with a risk score of 0.",
+    "scenario": 0,
+    "insider_user": "AAF0535"
+  },
+  {
+    "query_id": "Q093",
+    "query": "Investigate potential Data Exfiltration activity for TEM0093 on 2010-01-04",
+    "expected_log_ids": [
+      "email_006525",
+      "email_006588",
+      "email_006605"
+    ],
+    "expected_threat_category": "Data Exfiltration",
+    "expected_risk_score": 9,
+    "ideal_summary": "The forensic analysis of user TEM0093 on 2010-01-04 reveals patterns consistent with Data Exfiltration. The investigation identified multiple high-risk events, including email_006525, email_006588, email_006605, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Data Exfiltration with a risk score of 9.",
+    "scenario": 1,
+    "insider_user": "TEM0093"
+  },
+  {
+    "query_id": "Q094",
+    "query": "Investigate potential Insider Theft activity for CHG0146 on 2010-01-04",
+    "expected_log_ids": [
+      "email_001932",
+      "email_001936",
+      "email_001951"
+    ],
+    "expected_threat_category": "Insider Theft",
+    "expected_risk_score": 7,
+    "ideal_summary": "The forensic analysis of user CHG0146 on 2010-01-04 reveals patterns consistent with Insider Theft. The investigation identified multiple high-risk events, including email_001932, email_001936, email_001951, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Insider Theft with a risk score of 7.",
+    "scenario": 2,
+    "insider_user": "CHG0146"
+  },
+  {
+    "query_id": "Q095",
+    "query": "Investigate potential Sabotage activity for HDL0748 on 2010-01-06",
+    "expected_log_ids": [
+      "email_017949",
+      "email_020843",
+      "email_020870"
+    ],
+    "expected_threat_category": "Sabotage",
+    "expected_risk_score": 10,
+    "ideal_summary": "The forensic analysis of user HDL0748 on 2010-01-06 reveals patterns consistent with Sabotage. The investigation identified multiple high-risk events, including email_017949, email_020843, email_020870, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Sabotage with a risk score of 10.",
+    "scenario": 3,
+    "insider_user": "HDL0748"
+  },
+  {
+    "query_id": "Q096",
+    "query": "Investigate potential None activity for AAF0535 on 2010-01-05",
+    "expected_log_ids": [
+      "email_011840",
+      "email_011974",
+      "email_013848"
+    ],
+    "expected_threat_category": "None",
+    "expected_risk_score": 0,
+    "ideal_summary": "The forensic analysis of user AAF0535 on 2010-01-05 reveals patterns consistent with None. The investigation identified multiple high-risk events, including email_011840, email_011974, email_013848, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as None with a risk score of 0.",
+    "scenario": 0,
+    "insider_user": "AAF0535"
+  },
+  {
+    "query_id": "Q097",
+    "query": "Investigate potential Data Exfiltration activity for TEM0093 on 2010-01-04",
+    "expected_log_ids": [
+      "email_006525",
+      "email_006588",
+      "email_006605"
+    ],
+    "expected_threat_category": "Data Exfiltration",
+    "expected_risk_score": 9,
+    "ideal_summary": "The forensic analysis of user TEM0093 on 2010-01-04 reveals patterns consistent with Data Exfiltration. The investigation identified multiple high-risk events, including email_006525, email_006588, email_006605, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Data Exfiltration with a risk score of 9.",
+    "scenario": 1,
+    "insider_user": "TEM0093"
+  },
+  {
+    "query_id": "Q098",
+    "query": "Investigate potential Insider Theft activity for CHG0146 on 2010-01-04",
+    "expected_log_ids": [
+      "email_001932",
+      "email_001936",
+      "email_001951"
+    ],
+    "expected_threat_category": "Insider Theft",
+    "expected_risk_score": 7,
+    "ideal_summary": "The forensic analysis of user CHG0146 on 2010-01-04 reveals patterns consistent with Insider Theft. The investigation identified multiple high-risk events, including email_001932, email_001936, email_001951, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Insider Theft with a risk score of 7.",
+    "scenario": 2,
+    "insider_user": "CHG0146"
+  },
+  {
+    "query_id": "Q099",
+    "query": "Investigate potential Sabotage activity for HDL0748 on 2010-01-06",
+    "expected_log_ids": [
+      "email_017949",
+      "email_020843",
+      "email_020870"
+    ],
+    "expected_threat_category": "Sabotage",
+    "expected_risk_score": 10,
+    "ideal_summary": "The forensic analysis of user HDL0748 on 2010-01-06 reveals patterns consistent with Sabotage. The investigation identified multiple high-risk events, including email_017949, email_020843, email_020870, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as Sabotage with a risk score of 10.",
+    "scenario": 3,
+    "insider_user": "HDL0748"
+  },
+  {
+    "query_id": "Q100",
+    "query": "Investigate potential None activity for AAF0535 on 2010-01-05",
+    "expected_log_ids": [
+      "email_011840",
+      "email_011974",
+      "email_013848"
+    ],
+    "expected_threat_category": "None",
+    "expected_risk_score": 0,
+    "ideal_summary": "The forensic analysis of user AAF0535 on 2010-01-05 reveals patterns consistent with None. The investigation identified multiple high-risk events, including email_011840, email_011974, email_013848, which suggest a departure from normal behavioral baselines. Given the nature of these activities, the subject's actions are classified as None with a risk score of 0.",
+    "scenario": 0,
+    "insider_user": "AAF0535"
+  }
+]

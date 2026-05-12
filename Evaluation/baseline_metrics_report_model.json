@@ -1,0 +1,17 @@
+{
+    "timestamp": "2026-05-09T17:14:52.206440",
+    "num_examples": 100,
+    "retriever_metrics": {
+        "mrr": 0.4861111111111112,
+        "recall@10": 0.9166666666666667,
+        "ndcg@10": 0.6004454980831553
+    },
+    "generator_metrics": {
+        "threat_accuracy": 0.38,
+        "risk_score_mae": 5.25,
+        "rouge1": 0.3103097236328638,
+        "rouge2": 0.07104449971585375,
+        "rougeL": 0.19053508329184965,
+        "faithfulness": 0.8231999999999999
+    }
+}
