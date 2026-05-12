@@ -3,6 +3,8 @@
 ![UFDR Banner](https://img.shields.io/badge/UFDR-Forensic%20Intelligence-00ff41?style=for-the-badge&logo=security)
 ![Version](https://img.shields.io/badge/Version-1.0.0--Phase1-blue?style=for-the-badge)
 
+<img width="2816" height="1536" alt="UFDR" src="https://github.com/user-attachments/assets/cd4b071f-d80a-4122-9ec7-11101b6b813f" />
+
 **Infraglyph UFDR** is a premium, autonomous forensic intelligence platform designed to bridge the chasm between massive telemetry data and actionable forensic truth. Using advanced RAG (Retrieval-Augmented Generation) and Agentic reasoning, it automates the process of evidence retrieval, case building, and investigative reporting.
 
 ---
